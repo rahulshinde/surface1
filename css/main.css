@@ -273,7 +273,8 @@ a:visited {
 	.text {
 		float: left;
 		width: 90%;
-		margin-bottom: 80px;
+		margin-top: 20px;
+		margin-bottom: 100px;
 	}
 
 	.video-wrapper {
