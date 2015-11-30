@@ -135,10 +135,10 @@ a:visited {
 
 .video-wrapper {
 	float: right;
-	width:45%; 
+	width:48%; 
 	height:100%; 
 	margin-top: -50px;
-	margin-right: 2.5%;
+	margin-right: 1%;
 }
 
 .h_iframe {
@@ -148,6 +148,26 @@ a:visited {
 }
 
 .h_iframe iframe {
+	position:absolute;
+	top:0;left:0;
+	width:100%; 
+	height:100%;
+}
+
+.video-wrapper2 {
+	float: left;
+	width:80%; 
+	height:100%;
+	margin-left: 10%;
+}
+
+.h_iframe2 {
+	position:relative; 
+	padding-top: 59%;
+	margin-bottom: 4%;
+}
+
+.h_iframe2 iframe {
 	position:absolute;
 	top:0;left:0;
 	width:100%; 
