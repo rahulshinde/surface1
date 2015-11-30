@@ -176,6 +176,24 @@ a:visited {
 
 
 /* 	===========================
+		IMAGES
+	=========================== */
+
+.pattern-container {
+	float: left;
+	width: 90%;
+	margin-top: -40px;
+	margin-left: 5%;
+	border-bottom: 1px solid white;
+}
+
+.pattern {
+	width: 30%;
+	margin-left: 2.5%;
+	padding-bottom: 100px;
+}
+
+/* 	===========================
 		BACK TO HOME
 	=========================== */
 
@@ -198,4 +216,82 @@ a:visited {
 
 	text-decoration: none;
 
+}
+
+/*  =======================
+    MEDIA QUERIES
+    ======================= */
+
+@media screen and (max-width: 1000px) { 
+	
+	h1 {
+		font-size: 36px;
+	
+	}
+
+	p {
+		font-size: 14px;
+	}
+	.video-wrapper {
+		margin-top: -20px;
+	}
+
+	.pattern {
+		margin-top: 30px;
+	}
+
+
+}
+
+@media screen and (max-width: 900px) { 
+
+	.pattern {
+		margin-top: 60px;
+	}
+
+
+}
+
+@media screen and (max-width: 666px) {
+
+	h1 {
+		font-size: 50px;
+		margin-left: 10%;
+	}
+
+	p {
+		font-size: 16px;
+		margin-left: 10%;
+	} 
+
+	.pattern {
+		width: 80%;
+		margin-left: 10%;
+		margin-bottom: 0px;
+	}
+
+	.text {
+		float: left;
+		width: 90%;
+		margin-bottom: 80px;
+	}
+
+	.video-wrapper {
+		display: none;
+	}
+
+	.video-wrapper2 {
+		margin-bottom: 30px;
+	}
+
+	.back a:link,
+	.back a:visited {
+		padding: 5px;
+	
+		text-decoration: none;
+		color: white;
+		background-color: black;
+	
+	}
+	
 }
